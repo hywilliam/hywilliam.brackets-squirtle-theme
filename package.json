@@ -1,0 +1,15 @@
+{
+    "name": "hywilliam.brackets-squirtle-theme",
+    "title": "Squirtle",
+    "description": "Squirtle is a lucid and lively theme for Brackets",
+    "homepage": "https://github.com/hywilliam/hywilliam.brackets-squirtle-theme",
+    "version": "1.0.0",
+    "author": "hywilliam <williamwei6666@gamail.com> (http://hywilliam.com)",
+    "license": "MIT",
+    "theme": {
+        "file": "theme.less",
+        "dark": true,
+        "addModeClass": true
+    },
+    "keywords": ["theme"]
+}

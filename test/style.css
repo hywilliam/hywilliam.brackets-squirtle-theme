@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'icomoon';
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/icomoon_v2.woff) format('woff');
+}
+
+.file-icon {
+    font-family: 'icomoon';
+    font-size: 16px;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #94a3a7;
+    text-shadow: none;
+}
+
+#working-set-list-container .file-icon {
+    padding-right: 2px;
+}
+
+#project-files-container a {
+    padding-left: 9px;
+}
