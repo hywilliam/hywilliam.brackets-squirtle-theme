@@ -50,16 +50,21 @@
 .cm-property {
     color: #1abc9c;
 }
+
 // 声明
 .cm-def {
-    color: #e67e22;
+    color: #d35400;
 }
 
 .cm-bracket,
-.cm-variable-2,
 .cm-variable-3,
 .cm-meta {
     color: @foreground;
+}
+
+
+.cm-variable-2 {
+    color: #f39c12;
 }
 
 // 系统变量
@@ -70,6 +75,23 @@
 // 注释
 .cm-comment {
     color: #767676;
+}
+
+// 关键词
+.cm-builtin,
+.cm-keyword {
+    color: #CCCCFF;
+}
+
+// 修饰词：CSS中类名
+.cm-qualifier {
+    color: #666699;
+}
+
+// 标签
+.cm-tag,
+.cm-quote {
+    color: #3498DB;
 }
 
 .cm-error,
@@ -88,23 +110,6 @@
 
 .cm-rangeinfo {
     color: #6c71c4;
-}
-
-.cm-keyword {
-    color: aqua;
-}
-
-.cm-qualifier {
-    color: cornflowerblue;
-}
-// 标签
-.cm-tag,
-.cm-quote {
-    color: #3498DB;
-}
-
-.cm-builtin {
-    color: red;
 }
 /* Extra CSS */
 
